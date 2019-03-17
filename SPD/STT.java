@@ -18,6 +18,8 @@ import javafx.stage.StageStyle;
  */
 public class STT extends Application {
     
+    Scene login,forgotpassword;
+    
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
@@ -27,6 +29,7 @@ public class STT extends Application {
         
         stage.setScene(scene);
         stage.show();
+             
     }
 
     /**
